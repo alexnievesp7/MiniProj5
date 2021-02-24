@@ -28,12 +28,15 @@ class Main {
       return 7;
     } else {
       System.out.print("Unable to find class with that teacher.");
+      //beginning of recursive statement
       System.out.println("What is your other favorite class?");
       favoriteClass = scan.next();
       System.out.println("Who is the teacher of that class?");
       teacherClass = scan.next();
       return periodClass(favoriteClass, teacherClass);
+      //recursive 
     }
+
   }
     //returning input from the method
   static int inClass(int students, int elearners)
